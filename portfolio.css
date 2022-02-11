@@ -2,7 +2,7 @@ html {
     background-color: darksalmon;
 }
 
-header {
+.heading {
     font-size: large;
     text-align: center;
     color: black;
