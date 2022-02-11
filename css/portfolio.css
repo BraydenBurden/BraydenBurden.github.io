@@ -2,8 +2,8 @@ html {
     background-color: darksalmon;
 }
 
-.heading {
-    font-size: large;
+header {
+    font-size: 300%;
     text-align: center;
     color: black;
 }
