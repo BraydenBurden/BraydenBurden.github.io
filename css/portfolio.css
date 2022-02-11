@@ -1,9 +1,12 @@
 html {
     background-color: darksalmon;
+    color: black;
 }
 
 header {
+    background-color: orangered;
     font-size: 300%;
     text-align: center;
-    color: black;
+    border: 10px solid orangered;
+    border-radius: 25px;
 }
