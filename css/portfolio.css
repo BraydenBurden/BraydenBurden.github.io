@@ -4,15 +4,7 @@ html {
 }
 
 header {
-<<<<<<< HEAD
     background-color: orangered;
-    font-size: 300%;
     text-align: center;
     border: 10px solid orangered;
-    border-radius: 25px;
 }
-=======
-    text-align: center;
-    border: 10px solid orange;
-}
->>>>>>> 16931980e67ba73c0b40db5f80bd1e72140abd83
