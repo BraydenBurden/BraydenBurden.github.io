@@ -1,8 +1,9 @@
 html {
     background-color: darksalmon;
+    color: black;
 }
 
 header {
     text-align: center;
-    color: red;
+    border: 10px solid orange;
 }
