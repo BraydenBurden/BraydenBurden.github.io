@@ -86,14 +86,13 @@ header {
     align-items:flex-start;
     width: 60%;
     height: fit-content;
-    font-size: 140%;
+    font-size: 1.33rem;
     flex-shrink: 1;
     margin-left: 10px;
     margin-right: 10px;
     background: #36454f;
     border-radius: 25px;
     box-shadow: 0px 0px 25px whitesmoke;
-    margin-left: 30px;
 }
 
 #paragraphs_1_2 {
@@ -149,7 +148,9 @@ header {
     .about_container {
         flex-direction: column;
         width: 100%;
-        font-size: 110%;
+        /* font-size: 110%; */
+        align-items: center;
+        margin: 0px auto;
     }
     #brayden_photo_about {
         width: inherit;
@@ -159,11 +160,11 @@ header {
     }
     #paragraphs_1_2 {
         margin-left: 0%;
-        width: inherit;
+        width: 95%;
     }
     #paragraphs_3_4 {
         margin-left: 0%;
-        width: inherit;
+        width: 96%;
     }
     
 }
@@ -179,7 +180,7 @@ header {
     .about_container {
         flex-direction: column;
         width: 100%;
-        font-size: 110%;
+        /* font-size: 110%; */
     }
     #brayden_photo_about {
         width: inherit;
@@ -189,11 +190,11 @@ header {
     }
     #paragraphs_1_2 {
         margin-left: 0%;
-        width: inherit;
+        width: 90%;
     }
     #paragraphs_3_4 {
         margin-left: 0%;
-        width: inherit;
+        width: 92%;
     }
     
 }
