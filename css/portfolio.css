@@ -11,6 +11,8 @@ html {
 
 .footer {
     text-align: center;
+    padding-top: 8rem;
+    font-size: 1.5rem;
 }
 
 header {
@@ -55,9 +57,31 @@ header {
 
 }
 
+#home_desc {
+    width: 50%;
+    padding: 2rem;
+}
+
 .button:hover, .button:focus {
     background-color: #5f5e5e;
     color: white;
+}
+
+.button:visited {
+    color: black;
+}
+
+a:hover, a:focus {
+    background-color: #5f5e5e;
+    color: white;
+}
+
+a {
+    color: rgb(2, 34, 102);
+}
+
+a:active {
+    color: rgb(82, 47, 53);
 }
 
 .center_photo {
@@ -160,6 +184,399 @@ header {
     width: 100%;
 }
 
+.general_paragraph {
+    font-size: 2rem;
+    text-align: center;
+    background-color: #36454f;
+    border-radius: 25px;
+    box-shadow: 0px 0px 25px  whitesmoke;
+    margin-top: 2rem;
+
+}
+
+.diploma_1_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.diploma_3_4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.diploma {
+    width: 30%;
+    margin: 0.5rem;
+}
+
+.general_image_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    background-color: #36454f;
+    border-radius: 25px;
+    margin-top: 3rem;
+    box-shadow: 0px 0px 25px  whitesmoke;
+}
+
+#program_edu_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#statement1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+#semester_desc {
+    text-align: center;
+    font-size: 3rem;
+    background-color: #28333a;
+    border-radius: 25px;
+    box-shadow: 0px 0px 25px  #27333a;
+    padding: 1rem;
+}
+
+#semester_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    background-color: #36454f;
+    border-radius: 25px;
+    padding: 5rem;
+    box-shadow: 0px 0px 25px  whitesmoke;
+}
+
+.first_paragraphs1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin-left: 10rem;
+}
+
+.last_paragraphs1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+#semester_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-top: 5rem;
+    background-color: #36454f;
+    border-radius: 25px;
+    padding: 5rem;
+    box-shadow: 0px 0px 25px  whitesmoke;
+}
+
+.first_paragraphs2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin-left: 10rem;
+    margin-top: 5rem;
+}
+
+.last_paragraphs2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+ul {
+    font-size: 120%;
+}
+
+.course {
+    font-weight: bolder;
+}
+
+#portfolio_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 200%;
+    text-align: center;
+}
+
+#wix_site {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    background-color: #36454f;
+    border-radius: 25px;
+    padding: 5rem;
+    box-shadow: 0px 0px 25px  whitesmoke;
+}
+
+#first_game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    background-color: #36454f;
+    border-radius: 25px;
+    padding: 5rem;
+    box-shadow: 0px 0px 25px  whitesmoke;
+}
+
+#rpg_game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    background-color: #36454f;
+    border-radius: 25px;
+    padding: 5rem;
+    box-shadow: 0px 0px 25px  whitesmoke;
+}
+
+#rectangle_program {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    background-color: #36454f;
+    border-radius: 25px;
+    padding: 5rem;
+    box-shadow: 0px 0px 25px  whitesmoke;
+}
+
+#wix_site_photo {
+    width: 80%;
+    margin-top: 2rem;
+}
+
+#rpg_photo {
+    width: 80%;
+    margin-top: 2rem;
+}
+
+#first_game_photo {
+    width: 80%;
+    margin-top: 2rem;
+}
+
+#rectangle_program_photo {
+    width: 30%;
+    margin-top: 2rem;
+}
+
+#document_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#documents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    margin: 10rem;
+    margin-top: 2rem;
+}
+
+#document_photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#document_links {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#resume_link {
+    font-size: 2rem;
+    margin-left: 8rem;
+    background-color: #27333a;
+    box-shadow: 0px 0px 25px  whitesmoke;
+    border-radius: 25px;
+    padding: 1rem;
+}
+
+#cover_letter_link {
+    font-size: 2rem;
+    margin-left: 10rem;
+    margin-right: 6rem;
+    background-color: #27333a;
+    box-shadow: 0px 0px 25px  whitesmoke;
+    border-radius: 25px;
+    padding: 1rem;
+}
+
+#resume_photo {
+    margin-right: 5rem;
+    margin-left: 5rem;
+    width: 20%;
+}
+
+#cover_letter_photo{
+    width: 25.6%;
+    margin-left: 5rem;
+}
+
+#facebook_photo {
+    width: 18.7%;
+}
+
+#linkedin_photo {
+    width: 20%;
+}
+
+#contact_page {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+#contact_info {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+#contact_heading {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    font-size: 140%;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+#email_text {
+  margin-right: 19rem;
+}
+
+#phone_text {
+   margin-left: 19rem;
+}
+
+#statement2 {
+    font-size: 160%;
+}
+
+.email {
+    font-style: italic;
+}
+
+.phone_number {
+    font-style: italic;
+}
+
+#social_media {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-left: 20%;
+}
+
+#social_media_container {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 5rem;
+
+}
+
+#email {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    font-size: 110%;
+    font-weight: 500;
+}
+
+.social_media_link:hover, .social_media_link:focus {
+    background-color: #4a646c;
+}
+
+#all_info {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #27333a;
+    box-shadow: 0px 0px 25px  whitesmoke;
+    border-radius: 25px;
+}
+
+#phone_number {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    font-size: 110%;
+    font-weight: 500;
+}
+
 @media only screen and (max-width: 5000px) {
     .button {
         font-size: x-large;
@@ -197,6 +614,14 @@ header {
         margin-left: 0%;
         width: 96%;
     }
+
+    .first_paragraphs1 {
+        margin-left: 2rem;
+    }
+
+    .first_paragraphs2 {
+        margin-left: 2rem;
+    }
 }
 
 @media only screen and (max-width: 833px) {
@@ -226,6 +651,14 @@ header {
         width: 92%;
     }
     .general_edu_page {
+        flex-direction: column;
+    }
+
+    #semester_1 {
+        flex-direction: column;
+    }
+
+    #semester_2 {
         flex-direction: column;
     }
 }
