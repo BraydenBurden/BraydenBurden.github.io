@@ -5,7 +5,7 @@ html {
 
 #heading {
     font-family: "Great Vibes", cursive;
-    font-size: 250%;
+    font-size: 3rem;
     text-shadow: 4px 4px 4px white;
 }
 
@@ -22,7 +22,7 @@ header {
 
 .title {
     text-align: center;
-    font-size: 300%;
+    font-size: 4rem;
     margin-bottom: 0%;
 }
 
@@ -38,7 +38,7 @@ header {
 .button {
     background-color: #36454f;
     border: 3px solid #36454f;
-    font-size: 16px;
+    font-size: 2rem;
     margin-left: 1px;
     margin-right: 1px;
     color: black;
@@ -88,7 +88,7 @@ header {
     height: fit-content;
     font-size: 1.33rem;
     flex-shrink: 1;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-right: 10px;
     background: #36454f;
     border-radius: 25px;
@@ -114,7 +114,10 @@ header {
 }
 
 #home_desc {
-    font-size: 150%;
+    font-size: 1.8rem;
+    background: #36454f;
+    border-radius: 25px;
+    box-shadow: 0px 0px 25px whitesmoke;
 }
 
 #brayden_photo_home {
@@ -125,6 +128,35 @@ header {
 #brayden_photo_about {
     border: 5px solid #36454f;
     height: 100%;
+    width: 100%;
+}
+
+.list_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-size: 2rem;
+    background: #36454f;
+    border-radius: 25px;
+    box-shadow: 0px 0px 25px  whitesmoke;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.goals_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.general_edu_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
 }
 
@@ -148,7 +180,6 @@ header {
     .about_container {
         flex-direction: column;
         width: 100%;
-        /* font-size: 110%; */
         align-items: center;
         margin: 0px auto;
     }
@@ -166,7 +197,6 @@ header {
         margin-left: 0%;
         width: 96%;
     }
-    
 }
 
 @media only screen and (max-width: 833px) {
@@ -180,7 +210,6 @@ header {
     .about_container {
         flex-direction: column;
         width: 100%;
-        /* font-size: 110%; */
     }
     #brayden_photo_about {
         width: inherit;
@@ -196,26 +225,8 @@ header {
         margin-left: 0%;
         width: 92%;
     }
-    
+    .general_edu_page {
+        flex-direction: column;
+    }
 }
 
-.list_container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 75%;
-    font-size: 22px;
-    background: #36454f;
-    border-radius: 25px;
-    box-shadow: 0px 0px 25px  whitesmoke;
-    margin-top: 25px;
-    text-align: center;
-}
-
-.goals_page {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-}
