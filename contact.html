@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/portfolio.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <title>Personal Portfolio</title>
 
 </head>
+    
+<body id="contact_page">
     <header class="div_header">
         <h1 id="heading">Brayden Burden</h1>
         <div class="button_container">
@@ -22,35 +24,44 @@
             <a class="button" type="button" href="contact.html">Contact</a>
         </div>
     </header>
-
-    
-<body>
-    <h2 class="title">Contact</h2>
-    <div id="contact_page">
-        <p id="statement2">You can contact Brayden either through his phone number or emails listed below. 
-            There are also link a link to his Facebook and Linked In profile!</p>
-        <div id="all_info">
-            <div id="contact_heading">
-                <p id="email_text">Email</p>
-                <p id="phone_text">Phone Number</p>
-            </div>
-            <div id="contact_info">
-                <div id="email">
-                    <p class="email">brayden.burden00@gmail.com</p>
-                    <p class="email">brayden.burden91@ed.cna.nl.ca</p>
+    <main id="contact_main">
+        <h2 id="contact_title">Contact</h2>
+            <p id="contact_statement">You can contact Brayden either through his phone number or emails listed below. 
+                There are also link a link to his Facebook and Linked In profile!</p>
+                <div id="contact_info">
+                    <table id="email">
+                        <thead>
+                            <th>Email</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>brayden.burden00@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>brayden.burden91@ed.cna.nl.ca</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table id="phone_number">
+                        <thead>
+                            <th>Phone Number</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>+1 (709) 454-5027</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-                <div id="phone_number">
-                    <p class="phone_number">+1 (709) 454-5027</p>
+            <div id="social_media_container">
+                <h1>Social Media Links</h1>
+                <p>Click the icons below to be directed to Brayden's social media!</p>
+                <div id="social_media">
+                    <a class="social_media_link" href="https://www.facebook.com/brayden.burden/" target="_blank"><img  id="facebook_photo" src="imgs/facebook.png" alt=""></a>
+                    <a class="social_media_link" href="https://www.linkedin.com/in/brayden-burden-ab2778223/" target="_blank"><img id="linkedin_photo" src="imgs/linkedin.png" alt=""></a>
                 </div>
             </div>
-        </div>
-        <div id="social_media_container">
-            <div id="social_media">
-                <a class="social_media_link" href="https://www.facebook.com/brayden.burden/" target="_blank"><img  id="facebook_photo" src="images/facebook.png" alt=""></a>
-                <a class="social_media_link" href="https://www.linkedin.com/in/brayden-burden-ab2778223/" target="_blank"><img id="linkedin_photo" src="images/linkedin.png" alt=""></a>
-            </div>
-        </div>
-    </div>
+    </main>
     <footer class="footer">
         <p>This website was developed by Brayden Burden</p>
     </footer>

@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/portfolio.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <title>Personal Portfolio</title>
 
 </head>
+    
+<body id="portfolio_page">
     <header class="div_header">
         <h1 id="heading">Brayden Burden</h1>
         <div class="button_container">
@@ -22,35 +24,31 @@
             <a class="button" type="button" href="contact.html">Contact</a>
         </div>
     </header>
-
-    
-<body>
-    <h2 class="title">Portfolio</h2>
-    <div id="portfolio_page">
-        <p id="statement1">Here are some projects that Brayden has completed before</p>
-        <div id="portfolio_img_container">
-            <div id="wix_site">
+    <main id="portfolio_main">
+        <h2 id="portfolio_title">Portfolio</h2>
+        <p id="portfolio_statement">Here are some projects that Brayden has completed before</p>
+            <div class="project" id="wix_site">
                 <p>This is a previous website Brayden made using the wix website builder.</p>
-                <img id="wix_site_photo" src="images/wix_site.png" alt="Wix Site">
+                <img class="proj_img" id="wix_site_photo" src="imgs/wix_site.png" alt="Wix Site">
             </div>
-            <div id="first_game">
+            <div class="project" id="first_game">
                 <p>This is a small game Brayden developed last semester using pygame. It's a two player game
-                    where two spaceships fight each other</p>
-                <img id="first_game_photo" src="images/first_game.png" alt="First Game">
+                where two spaceships fight each other</p>
+                <img class="proj_img" id="first_game_photo" src="imgs/first_game.png" alt="First Game">
             </div>
-            <div id="rpg_game">
+            <div class="project" id="rpg_game">
                 <p>This is a game Brayden is currently working on using pygame. It's a single player game where
-                    the player will make their way through various dungeons defeating enemies.</p>
-                <img id="rpg_photo" src="images/rpg_game.png" alt="RPG Game">
-                <p><a href="https://github.com/BraydenBurden/pygame-game">The code is on github!</a></p>
+                the player will make their way through various dungeons defeating enemies.
+                <a href="https://github.com/BraydenBurden/pygame-game"> The code is on github!</a></p>
+                <img class="proj_img" id="rpg_photo" src="imgs/rpg_game.png" alt="RPG Game">
+                
             </div>
-            <div id="rectangle_program">
+            <div class="project" id="rectangle_prog">
                 <p>This is a simple promgram, that calculates perimeter and area of a square. This promgram
-                    also gives a visual representation of the rectangle.</p>
-                <img id="rectangle_program_photo" src="images/rectangle_program.png" alt="Rectangle Program">
+                also gives a visual representation of the rectangle.</p>
+                <img class="proj_img" id="rectangle_program_photo" src="imgs/rectangle_program.png" alt="Rectangle Program">
             </div>
-        </div>
-    </div>
+    </main>
     <footer class="footer">
         <p>This website was developed by Brayden Burden</p>
     </footer>
