@@ -4,43 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brayden Burden - Documents</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
-    <title>Personal Portfolio</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&display=swap" rel="stylesheet">
 </head>
-    
-<body id="document_page">
-    <header class="div_header">
-        <h1 id="heading">Brayden Burden</h1>
-        <div class="button_container">
-            <a class="button" type="button" href="index.html">Home</a>
-            <a class="button" type="button" href="about.html">About</a>
-            <a class="button" type="button" href="goals.html">Goals</a>
-            <a class="button" type="button" href="general_edu.html">General Education</a>
-            <a class="button" type="button" href="program_edu.html">Program Education</a>
-            <a class="button" type="button" href="portfolio.html">Portfolio</a>
-            <a class="button" type="button" href="documents.html">Documents</a>
-            <a class="button" type="button" href="contact.html">Contact</a>
-        </div>
-    </header>
-    <main id="document_main">
-        <h2 id="document_title">Documents</h2>
-            <p id="document_statement">Brayden has his resume, cover letter, and letters of recommendation published on the web
-                clink the buttons to go check them out.</p>
-            <div id="documents">
-                <div id="resume">
-                    <img class="document_img" id="resume_photo" src="imgs/resume.png" alt="resume">
-                    <p id="resume_link"><a href="https://docs.google.com/document/d/e/2PACX-1vRiD7KIgwieUn-cR2s3k8JOfTDXLlyD--eYw8EG-wbiqY3ZyifvsVIMRKgYE5YI9g/pub" target="_blank">Click here to see Brayden's resume.</a></p>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar_container">
+                <a href="/" id="navbar_logo">Brayden Burden</a>
+                <div class="navbar_toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
                 </div>
-                <div id="cover_letter">
-                    <img class="document_img" id="cover_letter_photo" src="imgs/cover_letter.png" alt="cover letter">
-                    <p id="cover_letter_link"><a href="https://docs.google.com/document/d/e/2PACX-1vQg45-MDwyCPwUE84Krd3PR6UX6l82ECVGe1uRo555bsubNfXfUd8YCo0Fa7QkG82njEgygGXI2ZY2R/pub" target="_blank">Click here to see Brayden's cover letter.</a></p>
-                </div>
+                <ul class="navbar_menu">
+                    <li class="navbar_item">
+                        <a href="/" class="navbar_links">Home</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="about.html" class="navbar_links">About/Goals</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="education.html" class="navbar_links">Education</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="portfolio.html" class="navbar_links">Portfolio</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="documents.html" class="navbar_links">Documents</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="contact.html" class="navbar_links">Contact</a>
+                    </li>
+                </ul>
             </div>
+        </nav>
+    </header>
+    <hr>
+    <main id="document_page">
+        <h2 class="heading">Documents</h2>
+        <p id="Document_intro">Brayden has his resume and cover letter published on the web
+            click the buttons to go check them out.</p>
+        <div id="documents">
+            <div id="resume">
+                <img id="resume_photo" src="imgs/resume.png" alt="resume">
+                <p id="resume_link"><a class="paragraph_link" href="https://docs.google.com/document/d/e/2PACX-1vRiD7KIgwieUn-cR2s3k8JOfTDXLlyD--eYw8EG-wbiqY3ZyifvsVIMRKgYE5YI9g/pub" target="_blank">Click here to see Brayden's resume.</a></p>
+            </div>
+            <div id="cover_letter">
+                <img id="cover_letter_photo" src="imgs/cover_letter.png" alt="cover letter">
+                <p id="cover_letter_link"><a class="paragraph_link" href="https://docs.google.com/document/d/e/2PACX-1vQg45-MDwyCPwUE84Krd3PR6UX6l82ECVGe1uRo555bsubNfXfUd8YCo0Fa7QkG82njEgygGXI2ZY2R/pub" target="_blank">Click here to see Brayden's cover letter.</a></p>
+            </div>
+        </div>
     </main>
-    <footer class="footer">
-        <p>This website was developed by Brayden Burden</p>
+    <hr>
+    <footer>
+        <p><em>Brayden Burden - Personal Portfolio</em></p>
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>
