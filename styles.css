@@ -5,7 +5,7 @@
 
 html {
     font-family: 'Gentium Plus', serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 @media screen and (max-width: 1450) {  
@@ -208,9 +208,14 @@ footer {
     margin-top: 3rem;
     margin-bottom: 2rem;
     margin-right: 1rem;
+    margin-left: 1rem;
     color: #c8c8c8;
     text-align: right;
     font-size: 0.7rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 body {
@@ -226,7 +231,7 @@ body {
 }
 
 #home_photo {
-    width: 45%;
+    width: 40%;
     height: fit-content;
     align-self: center;
     border: 6px solid gray;
@@ -242,7 +247,7 @@ body {
     color: #c8c8c8;
     align-self: center;
     padding-top: 2rem;
-    font-size: 3.5rem;
+    font-size: 1.7rem;
 }
 
 #welcome_content {
@@ -280,6 +285,10 @@ body {
     flex-direction: column;
     gap: 2rem;
     padding: 0 2rem;
+}
+
+#about_p4 {
+    padding-bottom: 2.5rem;
 }
 
 @media screen and (max-width: 1400px) {
@@ -344,6 +353,10 @@ body {
 #list_intro {
     font-weight: 700;
     align-self: center;
+}
+
+#course_list {
+    padding-bottom: 2rem;
 }
 
 /* Portfolio Page */
